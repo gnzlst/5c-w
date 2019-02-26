@@ -1,0 +1,19 @@
+<b>Using SQL Cache Dependency</b><br />
+by Joe Blogs<br />
+25/08/2008<br /> 
+<p>Caching has long been recognized as one of the more effective 
+ways to improve your ASP.NET web applications. However, one 
+particular caching feature that was dearly missing in ASP.NET 1.x 
+was SQL cache dependency. SQL cache dependency is the ability to 
+invalidate a database cache if data in a table is changed. In 
+ASP.NET 2.0, Microsoft has, much to the joy of developers, added 
+the new SQL cache dependency feature. In this article, I will 
+discuss SQL cache dependency in ASP.NET 2.0, as well as discuss 
+how you can manually implement your own SQL cache dependency in 
+ASP.NET 1.x. </p>
+
+<b>SQL Cache Dependency in ASP.NET 2.0</b>
+<p>To illustrate SQL cache dependency in ASP.NET 2.0, let's first 
+create a new web application. I have populated the default.aspx 
+web form with two controls: SqlDataSource and GridView (see Figure
+ 1). </p>

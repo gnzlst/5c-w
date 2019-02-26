@@ -1,0 +1,20 @@
+
+    <p class="secondary">
+        <span style="font-size: 7pt" class="tiny"></span>&nbsp;</p>
+    <p class="secondary">
+        <span style="font-size: 7pt" class="tiny"><a title="Go to a page listing all articles from this column."
+            href="http://www.oreillynet.com/pub/ct/15" >FreeBSD Basics</a></span><br />
+        <b><a href="http://www.onlamp.com/pub/a/bsd/2005/01/13/FreeBSD_Basics.html" >
+            More FreeBSD for Linux Users</a></b>&nbsp; BSD and Linux are both Unix workalikes.
+        How different can they be? In certain cases, very! Though the systems share a family
+        tree, their differences sometimes stand out. Dru Lavigne explains FreeBSD's directory
+        layout, devices, kernel modules, and terminology to Linux users. &nbsp; <a href="http://www.onlamp.com/"
+            >[ONLamp.com]</a></p>
+    <!--   generic lede template   -->
+    <p class="secondary">
+        <b><a href="http://www.onlamp.com/pub/a/python/2005/01/13/cheetah.html" >
+            Python-Powered Templates with Cheetah</a></b>&nbsp; It's true; XSLT isn't the
+        be-all, end-all of templating and transformation systems. If you use Python, consider
+        instead Cheetah, a template engine based on Python. Andrew Glover demonstrates its
+        simplicity and power for producing text in all kinds of formats. &nbsp; <a href="http://www.onlamp.com/"
+            >[ONLamp.com]</a></p>

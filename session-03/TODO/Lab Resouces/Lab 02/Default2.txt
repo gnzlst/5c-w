@@ -1,0 +1,10 @@
+<h2>Building Master Pages</h2>
+<p/>
+With Visual Studio 2005, ASP.NET now supports visual page inheritance, which is similar to Windows Forms inheritance, for those who have used that popular framework. With ASP.NET 2.0, you can now create a single Master page that contains the common elements used by the pages of your site. 
+<p/>You can then create web pages that inherit from the Master page to enforce a common look and feel across your entire site.
+</p>
+Using Master Pages to provide page headers is preferred over the use of Web User controls; only the Master page needs to be changed and the rest will follow!
+<p/>
+In ASP.NET 2.0, a new feature known as Master Pages addresses the limitations of using Web User controls for headers and navigational menu information. 
+<p/>
+In ASP.NET 2.0, you can simply construct a Master page that includes your page header information. You then build each page of your site by first inheriting from the site Master page.
