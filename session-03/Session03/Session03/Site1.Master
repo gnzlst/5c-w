@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Session03.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="scripts/css/bootstrap.min.css" />
+    <script type="text/javascript" src="src/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="src/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <img src="scripts/img/oreilly_header.gif" alt="O'reilly" class="float-left" />
+            </div>
+            <div class="col-4">
+                <img src="scripts/img/oranet_logo.jpg" alt="O'reilly" class="float-right" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-light" style="background-color: #8A000F;">
+                    <a class="nav-item nav-link text-white" href="#">MacDevCenter</a>
+                    <a class="nav-item nav-link text-white" href="#">ONDotnet.com</a>
+                    <a class="nav-item nav-link text-white" href="#">MozillaDevCenter</a>
+                    <a class="nav-item nav-link text-white" href="#">ONLamp.com</a>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p>Content</p>
+                <form id="form1" runat="server">
+                    <div>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="bg-secondary" id="footer">
+                    <p class="muted credit text-md-center">
+                        CRICOS Provider Name: Department of Further Education, Employment, 
+                    <br />
+                        Science and Technology trading as TAFE SA  |  CRICOS No: 00092B 
+                    <br />
+                        Date last modified: Monday 14 August 2006.<br />
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
